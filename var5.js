@@ -5,4 +5,5 @@ if (a%2 == 0){
 }
 else {a = "odd"}
 
+
 document.getElementById("demo2").innerHTML=a;

@@ -6,5 +6,3 @@ else{
     console.log("number is negative")
 }
  
-let b = 25
-if (b%2)

@@ -10,12 +10,20 @@
     <h2>the for loop</h2>
     <br><br>
     <p id="cars"></p>
+    <p id="num"></p>
+
 
     <script>
         const cars=["BMW","Volvo","Audi","Ciaz","Fiat"];
         let text=  "";
+
+
         for(let i = 0; i<cars.length; i++){
-            text += cars[i]+"<br>";
+            text += cars[i];
+        }
+
+        for (let j = 0; j<10; j = j+1){
+
         }
 
         document.getElementById("cars").innerHTML=text;

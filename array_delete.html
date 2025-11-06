@@ -8,18 +8,20 @@
 </head>
 
 <body>
-    <h2>array unshift() method</h2>
-    <p>the unshift() method adds new element at the bigning of an arrayand unshift other element
+
+
+    <h2>array delete() method</h2>
+    <p>the delete() method array
     </p><br>
     <p id="demo1"></p>
     <p id="demo2"></p>
 
     <script>
         const fruits = ["pineapple", "banana", "apple", "papaya"];
-        document.getElementById("demo1").innerHTML = fruits;
-
-        fruits.unshift("mango");
-        document.getElementById("demo2").innerHTML = fruits;
+        document.getElementById("demo1").innerHTML = fruits[0];//droping one fruits
+        delete fruits[0];
+        document.getElementById("demo2").innerHTML = fruits
+        
     </script>
 
 </body>
